@@ -6,35 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
     <link rel="stylesheet" href="styl7.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
         <h2>Galeria miejsc ciekawych</h2>
     </header>
     <main>
-        <img src="lanzarotte.jpg" alt="galeria">
+        <img id="mainph" src="lanzarotte.jpg" alt="galeria">
     </main>
     <div id="lewy">
         <h3>Przeglądaj zdjęcia</h3>
-        <img id="" onclick="" src="lanzarotte.jpg" alt="lanzarotte">
-        <img id="" onclick="" src="pekin.jpg" alt="pekin">
-        <img id="" onclick="" src="serengeti.jpg" alt="serengeti">
-        <img id="" onclick="" src="wenecja.jpg" alt="wenecja">
-        <img id="" onclick="" src="tajlandia.jpg" alt="tajlandia">
+        <img onclick="zmienzdjecie(src)" src="lanzarotte.jpg" alt="lanzarotte">
+        <img id="" onclick="zmienzdjecie(src)" src="pekin.jpg" alt="pekin">
+        <img id="" onclick="zmienzdjecie(src)" src="serengeti.jpg" alt="serengeti">
+        <img id="" onclick="zmienzdjecie(src)" src="wenecja.jpg" alt="wenecja">
+        <img id="" onclick="zmienzdjecie(src)" src="tajlandia.jpg" alt="tajlandia">
     </div>
     <div id="prawy">
         <h3>Obrazy w naszej galerii</h3>
         <table>
-            <th>Europa <tr><td>2</td></tr> </th>
-            <th>Azja <tr><td>2</td></tr></th>
-            <th>Afryka <tr><td>1</td></tr></th>
+            <tr>
+                <th>Europa</th>
+                <th>Azja</th>
+                <th>Afryka</th>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
             
         </table>
-        <p>Polub nas <img src="icon-off.png" alt=""></p>
+        <p>Polub nas <img src="icon-off.png" id="serce" alt="" onclick="polub()"></p>
         <a href="https://pixabay.com" target="_blank">Odkryj więcej zdjęć</a>
     </div>
-    <footer>
-        Autor:nah
-    </footer>
+    <footer>Autor:nah</footer>
 </body>
 </html>
