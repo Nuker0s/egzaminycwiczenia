@@ -22,7 +22,7 @@ main
     color: white;
     height: 300px;
     width: 80%;
-    float: left;
+
 }
 #prawy
 {
@@ -30,7 +30,7 @@ main
     color: white;
     height: 300px;
     width: 20%;
-    float: left;
+
 }
 main > img
 {
