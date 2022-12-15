@@ -1,0 +1,12 @@
+*
+{
+    font-family: Helvetica;
+}
+header
+{
+    background-color: #00838f;
+    color: white;
+    padding: 5px;
+    font-size: 130%;
+    text-align: center;
+}
