@@ -55,7 +55,9 @@ main
     flex-direction: column;
     width: 55%;
 }
-table,td
+table,td,th
 {
+    
     border: 1px solid #4fb3bf;
+    border-collapse: collapse;
 }
