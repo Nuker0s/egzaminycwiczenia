@@ -2,6 +2,11 @@
 {
     font-family: Helvetica;
 }
+body
+{
+    display: block;
+    flex-direction: row;
+}
 header,footer
 {
     background-color: #00838f;
@@ -9,6 +14,7 @@ header,footer
     padding: 5px;
     font-size: 130%;
     text-align: center;
+    
 }
 #dol,#gora
 {
@@ -25,12 +31,18 @@ header,footer
 }
 #prawy
 {
-    display: flex;
     background-color: #4fb3bf;
     width: 45%;
     height: 450px;
-    text-emphasis: center;
+    text-align: center;
     float: right;
+    
+}
+#prawy > img
+{
+    
+    box-shadow: 10px 10px 7px dimgray;
+    margin: 20px;
 }
 main
 {
@@ -42,4 +54,8 @@ main
     display: flex;
     flex-direction: column;
     width: 55%;
+}
+table,td
+{
+    border: 1px solid #4fb3bf;
 }
