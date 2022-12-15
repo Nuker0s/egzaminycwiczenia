@@ -2,11 +2,16 @@
 {
     font-family: Helvetica;
 }
-header
+header,footer
 {
     background-color: #00838f;
     color: white;
     padding: 5px;
     font-size: 130%;
     text-align: center;
+}
+#dol,#gora
+{
+    background-color: #EFEFEF;
+    width: 55%;
 }
