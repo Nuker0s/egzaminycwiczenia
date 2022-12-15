@@ -13,5 +13,33 @@ header,footer
 #dol,#gora
 {
     background-color: #EFEFEF;
+    
+}
+#gora
+{
+    height: 150px;
+}
+#dol
+{
+    height:300px;
+}
+#prawy
+{
+    display: flex;
+    background-color: #4fb3bf;
+    width: 45%;
+    height: 450px;
+    text-emphasis: center;
+    float: right;
+}
+main
+{
+    display: flex;
+    flex-direction: row;
+}
+#lewo
+{
+    display: flex;
+    flex-direction: column;
     width: 55%;
 }
