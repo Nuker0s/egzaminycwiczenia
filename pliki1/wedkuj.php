@@ -38,3 +38,6 @@
     <footer><p>Stronę wykonał:</p></footer>
 </body>
 </html>
+<?php
+    
+?>
