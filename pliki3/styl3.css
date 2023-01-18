@@ -1,0 +1,65 @@
+/* External file styl3.css */
+
+/* Default formatting for all selectors */
+* {
+    font-family: Verdana;
+  }
+
+
+  /* Common formatting for left and right blocks */
+  #lewy, #prawy {
+    background-color: SeaGreen;
+    color: white;
+    line-height: 150px;
+    height: 260px;
+    font-size: 160%;
+    float: left;
+  }
+  
+  /* Additional formatting for left block */
+  #lewy {
+    width: 75%;
+  }
+  
+  /* Additional formatting for right block */
+  #prawy {
+    width: 25%;
+    text-align: right;
+    
+  }
+  
+  /* Formatting for main block */
+  #main {
+    background-color: MintCream;
+    padding: 80px;
+  }
+  
+  /* Common formatting for both footers */
+  footer {
+    background-color: SeaGreen;
+    color: white;
+    width: 50%;
+    height: 70px;
+    text-align: center;
+    float: left;
+  }
+  
+  /* Formatting for control selector */
+  input[type="button"], input[type="text"] {
+    margin-bottom: 20px;
+  }
+  
+  /* Formatting for image selector */
+  img {
+    box-shadow: 15px 15px 10px DimGray;
+  }
+  
+  /* Formatting for link selector */
+  a {
+    text-decoration: none;
+    background-color: MintCream;
+    color: SeaGreen;
+    padding: 15px;
+    line-height: 70px;
+  }
+  
